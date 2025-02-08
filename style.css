@@ -118,17 +118,22 @@ label {
 
     display: flex;
     flex-direction: column;
-    gap: 50px; 
+    gap: 3.5rem;
+    padding: 0 5rem 0 3rem;
+    
+    font-size: 1.5rem;
+    font-weight: 550;
+    color: white;
 }
 
 
 .svg-dash {
-    width: clamp(20px, 60%, 60px);
+    width: 50px;
     fill: white;
 }
 
 .svg-nav {
-    width: clamp(20px, 15%, 40px);
+    width: 30px;
     fill: white;
 }
 
@@ -136,17 +141,19 @@ label {
 li {
     display: flex;
     align-items: center;
-
-    color: white;
-    gap: 25px;
-    font-weight: 550;
 }
 
 .nav {
-    margin: 10px 0;
-    padding-left: clamp(20px, 20%, 100px);
+    display: flex;
+    gap: 1rem;
 }
 
+.nav-actions,
+.nav-settings {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
 
 
 .container {
