@@ -198,11 +198,17 @@ h1 {
     background-color: #E2E8F0;
     display: grid;
     grid-template-columns: 4fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr;
     box-sizing: border-box;
     padding: 1.5rem 1.5rem 3rem 1.5rem;
     row-gap: 1.5rem;
     justify-items: end;
+}
+
+.container-sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 }
 
 .projects {
