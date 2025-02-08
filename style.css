@@ -254,9 +254,13 @@ h3 {
     flex-direction: column;
     justify-content: space-between;
     background: #ffffff;
+    width: 350px;
 
-    max-width: 350px;
   /*  grid-template-rows: repeat(8, 1fr); */
+}
+
+.card-trending {
+    gap: 1.5rem;
 }
 
 .card-icons {
@@ -281,14 +285,24 @@ p {
 }
 
 .p-announcements {
-    max-height: 7vh;
+    max-height: 8vh;
+
+
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
     overflow: hidden;
-    text-overflow: ellipsis;
 }
 
 hr {
     border: 1px solid rgb(223, 223, 223);
     margin: 0.5rem 0rem;
+}
+
+.trending-user {
+    display: flex;
+    gap: 1rem;
 }
 
 
