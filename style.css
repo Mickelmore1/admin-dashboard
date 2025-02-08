@@ -32,6 +32,7 @@ body {
 
 
 
+
 .header {
     background-color: white;
     grid-column: 2/3;
@@ -253,10 +254,9 @@ h3 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    
     background: #ffffff;
     width: 350px;
-
-  /*  grid-template-rows: repeat(8, 1fr); */
 }
 
 .card-trending {
@@ -286,8 +286,6 @@ p {
 
 .p-announcements {
     max-height: 8vh;
-
-
 
     display: -webkit-box;
     -webkit-line-clamp: 3;
